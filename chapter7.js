@@ -11,10 +11,10 @@ var _ = require('lodash');
 
 const array = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 const chunk = _.chunk(array, 4);
-console.log(chunk);
+console.log('chunk', chunk);
 
 const intersection = _.intersection(array, [3,4]);
-console.log(intersection);
+console.log('intersection', intersection);
 
 const uniq = _.uniq([1,1,1,3,3,4,5,6,6,6]);
-console.log(uniq);
+console.log('intersection', uniq);
